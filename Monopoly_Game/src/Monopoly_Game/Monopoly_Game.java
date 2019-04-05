@@ -1,9 +1,12 @@
 package Monopoly_Game;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 public class Monopoly_Game {
     public static void main(String[] args) {
         // Starting Main
-        System.out.println("Hello Monopoly !!!");
-        String Stat = "GitHup is released"; 
+        String Stat = "GitHup is released";
+        System.out.println(Stat);
         
     }
     
