@@ -1,0 +1,2 @@
+IncomeTax 0 0 Data\IncomeTax.png 200
+LuxuryTax 0 0 Data\LuxuryTax.png 75
