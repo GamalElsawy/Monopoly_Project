@@ -6,7 +6,7 @@ import java.awt.event.*;
 
 public class Utility extends Field{
     int Rent, Price;
-    public Utility(String n,double x,double y,String PathImage, int rent, int price) {
+    public Utility(String n,int x,int y,String PathImage, int rent, int price) {
         super(n,x,y,PathImage);
         Rent = rent;
         Price = price;

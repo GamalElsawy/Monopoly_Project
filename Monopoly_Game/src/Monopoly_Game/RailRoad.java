@@ -6,7 +6,7 @@ import java.awt.event.*;
 
 public class RailRoad extends Field{
     int[] Rent;
-    public RailRoad(String n,double x,double y,String PathImage) {
+    public RailRoad(String n,int x,int y,String PathImage) {
         super(n,x,y,PathImage);
         Rent = new int[5];
     }

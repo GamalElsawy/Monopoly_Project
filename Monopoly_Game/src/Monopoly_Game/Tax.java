@@ -6,7 +6,7 @@ import java.awt.event.*;
 
 public class Tax extends Field{
     int taxValue;
-    public Tax(String n,double x,double y,String PathImage, int taxValue) {
+    public Tax(String n,int x,int y,String PathImage, int taxValue) {
         super(n,x,y,PathImage);
         this.taxValue = taxValue;
     }

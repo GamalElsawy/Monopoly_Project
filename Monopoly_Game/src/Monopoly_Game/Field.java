@@ -7,11 +7,11 @@ import javax.swing.ImageIcon;
 public abstract class Field {
     Image image;
     String Name;
-    double X,Y;
-    Field(String n,double x,double y,String PathImage){
+    int Rows,Cols;
+    Field(String n,int x,int y,String PathImage){
         Name = n;
-        X=x;
-        Y=y;
+        Rows=x;
+        Cols=y;
         ImageIcon ii = new ImageIcon(PathImage);
         image  = ii.getImage();
                 

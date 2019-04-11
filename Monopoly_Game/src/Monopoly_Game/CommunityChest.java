@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class CommunityChest extends Field{
-    public CommunityChest(String n,double x,double y,String PathImage) {
+    public CommunityChest(String n,int x,int y,String PathImage) {
         super(n,x,y,PathImage);
         
     }

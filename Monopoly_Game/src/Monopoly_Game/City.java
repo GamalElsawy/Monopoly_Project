@@ -9,7 +9,7 @@ public class City extends Field{
    int Price,NumberOfHouses,Mortage,HouseCost,HotelCost,MonopolyRent,PlayerID;
    int[]Rent;
    boolean is_Grouped;
-   City(String n,double x,double y,String PathImage,int hsc,int htc,int monoRent,int[] rent,int mort,Color clr,int prc){
+   City(String n,int x,int y,String PathImage,int hsc,int htc,int monoRent,int[] rent,int mort,Color clr,int prc){
        super(n,x,y,PathImage);
        PlayerID = -1;
        System.arraycopy(rent, 0, Rent, 0, 6);
@@ -29,5 +29,4 @@ public class City extends Field{
    }
    void sell(){
    }
-    
 }

@@ -15,5 +15,4 @@ public abstract class Property {
         ImageIcon ii = new ImageIcon(path);
         img  = ii.getImage();
     }
-    
 }
