@@ -5,22 +5,26 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class City extends Field{
-   Color CityColor;
+   String CityColor;
    int Price,NumberOfHouses,Mortage,HouseCost,HotelCost,MonopolyRent,PlayerID;
    int[]Rent;
    boolean is_Grouped;
-   City(String n,int x,int y,String PathImage,int hsc,int htc,int monoRent,int[] rent,int mort,Color clr,int prc){
-       super(n,x,y,PathImage);
-       PlayerID = -1;
-       System.arraycopy(rent, 0, Rent, 0, 6);
-       HouseCost = hsc;
-       HotelCost = htc;
-       MonopolyRent = monoRent;
-       Mortage = mort;
-       CityColor = clr;
-       Price = prc;
-       
-   }
+   public City(String[] data) {
+        super(data[0], Integer.parseInt(data[1]), Integer.parseInt(data[2]), data[3]);
+        int idx = 4;
+        PlayerID = -1;
+        HouseCost = Integer.parseInt(data[idx++]);
+        HotelCost = Integer.parseInt(data[idx++]);
+        MonopolyRent = Integer.parseInt(data[idx++]);
+        Rent = new int[6];
+        for (int i = 0; i < 6; i++) {
+            Rent[i] = Integer.parseInt(data[idx++]);
+        }
+        Mortage = Integer.parseInt(data[idx++]);
+        CityColor = data[idx++];
+        Price = Integer.parseInt(data[idx++]);
+
+    }
    void PayRent(int id){
    }
    void BuildHouse(){
@@ -29,4 +33,11 @@ public class City extends Field{
    }
    void sell(){
    }
+   void print(){
+       System.out.print(Name + " " + Rows + " " + Cols + " " + HouseCost + " " + HotelCost + " " + MonopolyRent + " ");
+       for (int i = 0; i < 6; i++)
+           System.out.print(Rent[i] + " ");
+       System.out.println(Mortage + " " + CityColor + " " + Price);
+   }
+   void ahmedHisham(){}
 }

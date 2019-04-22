@@ -1,2 +1,2 @@
-ElectricCompany 0 0 Data\ElectricCompany.png
-WaterWorks 0 0 Data\WaterWorks.png
+ElectricCompany 339 603 Data\ElectricCompany.png 150
+WaterWorks 995 107 Data\WaterWorks.png 150

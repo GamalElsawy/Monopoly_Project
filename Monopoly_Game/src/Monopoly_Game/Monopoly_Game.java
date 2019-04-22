@@ -3,13 +3,20 @@ import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-
+class gameData {
+    
+    
+}
 public class Monopoly_Game {
+   public static City[] cities = new City[22];
     public static void main(String[] args) {
-        /*ReadingData Read = new ReadingData();
-        Read.OpenFile();
-        Read.Read();
-        Read.Close();*/
+        ReadingData Read = new ReadingData();
+        Read.OpenFile("CitiesDetails.txt");
+        Read.Read(16);
+        Read.Close();
+        for (int i = 0; i < 22; i++){
+            cities[i].print();
+        }
        
         /*JFrame MainPage = new JFrame();
         MainPage.setLayout(new FlowLayout());

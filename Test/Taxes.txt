@@ -1,0 +1,2 @@
+IncomeTax 831 727 Data\IncomeTax.png 200
+LuxuryTax 1159 603 Data\LuxuryTax.png 75
