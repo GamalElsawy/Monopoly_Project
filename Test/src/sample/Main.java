@@ -2,6 +2,7 @@ package sample;
 
 import javafx.animation.Timeline;
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.*;
 import javafx.scene.*;
 import javafx.scene.control.Button;
@@ -11,11 +12,21 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.*;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Box;
 import javafx.scene.control.*;
 import javafx.scene.transform.*;
 import javafx.stage.*;
 import gameData.*;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import sample.Frame;
+
+import javax.swing.*;
+import java.awt.*;
 import java.time.Duration;
 import java.util.Random;
 
@@ -32,7 +43,12 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-
+        //NewGame ng = new NewGame();
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        primaryStage.setTitle("Hello World");
+        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.show();
+        //ng.setVisible(true);
         gameData.fillData();
         gameData.fillMap();
         Box Ground = new Box(1000, 20, 1000);
@@ -148,12 +164,12 @@ public class Main extends Application {
         });
 
 
-        primaryStage.getIcons().add(image);
+        /*primaryStage.getIcons().add(image);
         primaryStage.fullScreenProperty();
         primaryStage.resizableProperty();
         primaryStage.setTitle("Monopoly");
         primaryStage.setScene(scene);
-        primaryStage.show();
+        //primaryStage.show();*/
 
     }
 
