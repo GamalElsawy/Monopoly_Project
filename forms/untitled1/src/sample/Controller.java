@@ -28,12 +28,14 @@ public class Controller {
     public TextField twoName;
     public TextField threeName;
     public TextField fourName;
+    public Label Strat;
     public void handleCloseButtonAction() {
         //Main.primaryStage = (Stage) closeButton.getScene().getWindow();
         Main.primaryStage.close();
 
 
     }
+
      public void twoPlayers(){
 
          try {
@@ -94,6 +96,10 @@ public class Controller {
         } catch (IOException e) {
             System.out.println("gasdga");
         }
+    }
+    public void StartAction(){
+
+
     }
 
 

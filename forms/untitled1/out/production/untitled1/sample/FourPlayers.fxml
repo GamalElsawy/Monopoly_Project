@@ -7,8 +7,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">    <children>
-        <ImageView pickOnBounds="true" preserveRatio="true">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">    <children>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@stretched-1366-768-652712.jpg" />
             </image>
@@ -38,7 +38,8 @@
         </Label>
         <TextField fx:id="fourName" disable="true" layoutX="976.0" layoutY="157.0" prefHeight="25.0" prefWidth="253.0" />
 
-        <Label fx:id="backToNumbers" layoutX="14.0" layoutY="14.0" onMouseClicked="#BackToNumbers" prefHeight="45.0" prefWidth="48.0" style="-fx-background-image: url('file:C:/Users/Hisham/Downloads/Compressed/untitled1/src/sample/back.png'); -fx-background-repeat: no-repeat;" />
+        <Label fx:id="backToNumbers" layoutX="14.0" layoutY="14.0" onMouseClicked="#BackToNumbers" prefHeight="45.0" prefWidth="48.0" style="-fx-background-image: url('file:C:/Users/user/Desktop/Monopoly_Project/forms/untitled1/src/sample/back.png'); -fx-background-repeat: no-repeat;" />
+    <Label fx:id="Start" layoutX="599.0" layoutY="374.0" prefHeight="192.0" prefWidth="479.0" style="-fx-background-image: url('file:C:/Users/user/Desktop/Monopoly_Project/forms/untitled1/src/sample/start-button-blue-png-25.png');" />
 
     </children>
 
