@@ -1,4 +1,0 @@
-ReadingRailroad 749 727 Data\ReadingRailroad.png 25 50 100 200 200
-PennsylvaniaRailroad 339 417 Data\PennsylvaniaRailroad.png 25 50 100 200 200
-B&ORailroad 749 107 Data\B&ORailroad.png 25 50 100 200 200
-ShorLine 1159 417 Data\ShorLine.png 25 50 100 200 200

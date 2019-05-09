@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #385d70;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.buyc">
+   <children>
+      <Label fx:id="nmm" layoutX="8.0" layoutY="14.0" prefHeight="53.0" prefWidth="384.0" style="-fx-background-color: #101221;" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

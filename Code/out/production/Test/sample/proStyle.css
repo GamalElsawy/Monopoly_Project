@@ -1,0 +1,25 @@
+#newgame{
+    -fx-background-image: url("Newgame.png");
+}
+#loadgame{
+    -fx-background-image: url("Loadgame.png");
+}
+#closeButton{
+    -fx-background-image: url("Exit.png");
+}
+#two{
+    -fx-background-image: url("2.png");
+}
+#three{
+    -fx-background-image: url("3.png");
+}
+#four{
+    -fx-background-image: url("4.png");
+}
+#backButton, #backToNumbers{
+    -fx-background-image: url("back.png");
+}
+#Start{
+    -fx-background-image: url("start-button-blue-png-25.png");
+}
+
