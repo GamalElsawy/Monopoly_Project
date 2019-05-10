@@ -31,16 +31,16 @@
 
 - They may go to jail or do some judgements written on chances and community chest cards.
 
-- They pay rent for standing on someone elses property. 
+- They pay rent for standing on someone else's property. 
 
-- The last Player who doesn't lose his money is the winner.
+- The last Player who didn't lose all his money is the winner.
 
 
 
 ## Project Description:
-- It's a java project that impelments the game with a strong Gui using javaFX and OOP concepts.
+- It's a java project that impelments the game with a strong gui (using javaFX) and OOP concepts.
 
-- The players are set of 3d shapes that moves on the board with the amount of rolled dice.
+- The players are set of 3D shapes that moves on the board with the amount of rolled dice.
 
 - It has all the orginal game functionalities with one house rule which is that you can stand on an unowned property and you don't buy it and pass without starting an auction.
 
