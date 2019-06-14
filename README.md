@@ -38,11 +38,11 @@
 
 
 ## Project Description:
-- It's a java project that impelments the game with a strong gui (using javaFX) and OOP concepts.
+- It's a java project that implements the game with a strong gui (using javaFX) and OOP concepts.
 
 - The players are set of 3D shapes that moves on the board with the amount of rolled dice.
 
-- It has all the orginal game functionalities with one house rule which is that you can stand on an unowned property and you don't buy it and pass without starting an auction.
+- It has all the original game functionalities with one house rule which is that you can stand on an unowned property and you don't buy it and pass without starting an auction.
 
 - The forms in the start of the game were implemented with fxml using scene builder with a very little css styling and the actions of the buttons (labels act like buttons) were implemented with java.
 
