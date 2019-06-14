@@ -44,5 +44,5 @@
 
 - It has all the orginal game functionalities with one house rule which is that you can stand on an unowned property and you don't buy it and pass without starting an auction.
 
-- The forms in the start of the game where implemented with fxml using scene builder with a very little css styling and the actions of the buttons (labels act like buttons) were implemented with java.
+- The forms in the start of the game were implemented with fxml using scene builder with a very little css styling and the actions of the buttons (labels act like buttons) were implemented with java.
 
