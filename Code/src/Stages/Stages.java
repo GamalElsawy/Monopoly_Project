@@ -37,9 +37,6 @@ import javax.swing.*;
 public class Stages {
 
     public static void buyStage(Field c, int price, int idx, String path) {
-        String[] test = {};
-        City testC = new City(test);
-        RailRoad testR = new RailRoad(test);
         AnchorPane buy = new AnchorPane();
         buy.setStyle("-fx-background-color: #385d70;-fx-border-style: solid;-fx-border-width: 5px;-fx-border-color: white");
         Label playerName = new Label(gameData.Names[idx]);
@@ -82,9 +79,9 @@ public class Stages {
             Main.Labels(gameData.playersNumber);
 
             Main.group.getChildren().add(c.getIVIcon());
-            if (c.getClass() == testC.getClass()) {
+            if (c.getClass() == gameData.cities[0].getClass()) {
                 gameData.Players[idx].addCity(c);
-            } else if (c.getClass() == testR.getClass()) {
+            } else if (c.getClass() == gameData.railRoads[0].getClass()) {
                 gameData.Players[idx].addRR(c);
             } else
                 gameData.Players[idx].addUtil(c);

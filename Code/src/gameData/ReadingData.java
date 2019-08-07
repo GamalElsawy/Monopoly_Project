@@ -15,7 +15,7 @@ public class ReadingData {
     public void OpenFile(String path) {
         Path = path;
         try {
-            x = new Scanner(new File(Path));
+            x = new Scanner(getClass().getResourceAsStream(Path));
 
         } catch (Exception e) {
             System.out.println("Error!!!");

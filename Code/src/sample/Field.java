@@ -50,7 +50,8 @@ public abstract class Field {
     }
 
 
-    int smallX, smallY, Mortage, morX, morY;
+    double smallX, smallY, morX, morY;
+    int Mortage;
     int NumberOfHouses;
     int NumberOfHotel;
     int HouseCost;
@@ -63,6 +64,8 @@ public abstract class Field {
     public void setIVIcon(Image IVIco) {
         Main.group.getChildren().remove(this.IVIcon);
         this.IVIcon = new ImageView(IVIco);
+        IVIcon.setFitWidth(Main.x(50));
+        IVIcon.setFitHeight(Main.y(50));
         IVIcon.setTranslateX(smallX);
         IVIcon.setTranslateY(smallY);
         IVIcon.setVisible(true);
@@ -388,8 +391,8 @@ public abstract class Field {
     }
 
     public void setMor(int x, int y) {
-        morX = x;
-        morY = y;
+        morX = x* Main.x;
+        morY = y* Main.y;
     }
 
     public boolean isIs_Mortaged() {
@@ -417,19 +420,19 @@ public abstract class Field {
     }
 
     public void setSmall(int x, int y) {
-        smallX = x;
-        smallY = y;
+        smallX = Main.x(x);
+        smallY = Main.y(y);
     }
 
     public int getPlayerID() {
         return PlayerID;
     }
 
-    public int getSmallX() {
+    public double getSmallX() {
         return smallX;
     }
 
-    public int getSmallY() {
+    public double getSmallY() {
         return smallY;
     }
 

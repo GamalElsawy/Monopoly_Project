@@ -1,0 +1,8 @@
+Brown 2 0 1
+LightBlue 3 2 3 4
+Pink 3 5 6 7
+Orange 3 8 9 10
+Red 3 11 12 13
+Yellow 3 14 15 16
+Green 3 17 18 19
+Blue 2 20 21

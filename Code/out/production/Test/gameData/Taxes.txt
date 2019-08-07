@@ -1,0 +1,2 @@
+4 IncomeTax 632 783 633 846 666 829 665 765 Data\IncomeTax.png 200
+38 LuxuryTax 923 666 977 671 969 632 925 615 Data\LuxuryTax.png 75
