@@ -13,18 +13,18 @@
                 <Image url="@NewGame.jpg" />
             </image>
         </ImageView>
-        <Label layoutX="772.0" layoutY="459.0" prefHeight="58.0" prefWidth="370.0" text="How many Players ?">
+        <Label layoutX="274.0" layoutY="212.0" prefHeight="58.0" prefWidth="370.0" text="How many Players ?">
             <font>
                 <Font size="40.0" />
             </font>
         </Label>
-        <Label fx:id="two" layoutX="741.0" layoutY="527.0" onMouseClicked="#twoPlayers" prefHeight="0.0" prefWidth="48.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css">
+        <Label fx:id="two" layoutX="292.0" layoutY="301.0" onMouseClicked="#twoPlayers" prefHeight="0.0" prefWidth="48.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css">
             <font>
                 <Font size="37.0" />
             </font>
         </Label>
-        <Label fx:id="three" layoutX="933.0" layoutY="532.0" onMouseClicked="#threePlayers" prefHeight="45.0" prefWidth="48.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css" />
-        <Label fx:id="four" layoutX="1118.0" layoutY="532.0" onMouseClicked="#fourPlayers" prefHeight="45.0" prefWidth="48.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css" />
+        <Label fx:id="three" layoutX="420.0" layoutY="305.0" onMouseClicked="#threePlayers" prefHeight="45.0" prefWidth="48.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css" />
+        <Label fx:id="four" layoutX="561.0" layoutY="305.0" onMouseClicked="#fourPlayers" prefHeight="45.0" prefWidth="48.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css" />
         <Label fx:id="backButton" layoutX="14.0" layoutY="14.0" onMouseClicked="#backAction" prefHeight="45.0" prefWidth="48.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css" />
     </children>
 </AnchorPane>

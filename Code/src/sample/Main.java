@@ -72,9 +72,9 @@ public class Main extends Application {
         primaryStage = PrimaryStage;
 
         primaryStage.setTitle("Let's Play Monopoly!");
-        sss = new Scene(root, 300, 275);
+        sss = new Scene(root, 800, 700);
         primaryStage.setScene(sss);
-        primaryStage.setMaximized(true);
+        primaryStage.setResizable(false);
         primaryStage.show();
 
         PhongMaterial Playermaterial = new PhongMaterial(Color.YELLOW);

@@ -12,8 +12,7 @@
                 <Image url="@mainframe.png" />
             </image>
         </ImageView>
-        <Label fx:id="newgame" layoutX="407.0" layoutY="352.0" onMouseClicked="#newGame" prefHeight="97.0" prefWidth="267.0" stylesheets="@proStyle.css" />
-        <Label fx:id="loadgame" layoutX="1272.0" layoutY="344.0" prefHeight="97.0" prefWidth="267.0" stylesheets="@proStyle.css" />
-        <Label fx:id="closeButton" layoutX="818.0" layoutY="543.0" mnemonicParsing="false" onMouseClicked="#handleCloseButtonAction" prefHeight="97.0" prefWidth="267.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css" />
+        <Label fx:id="newgame" layoutX="300.0" layoutY="240.0" onMouseClicked="#newGame" prefHeight="97.0" prefWidth="267.0" stylesheets="@proStyle.css" />
+        <Label fx:id="closeButton" layoutX="300.0" layoutY="460.0" mnemonicParsing="false" onMouseClicked="#handleCloseButtonAction" prefHeight="97.0" prefWidth="267.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css" />
     </children>
 </Pane>

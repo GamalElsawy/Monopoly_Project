@@ -25,14 +25,14 @@
             </font>
         </Label>
         <TextField fx:id="twoName" disable="true" layoutX="438.0" layoutY="157.0" onKeyReleased="#Player2_3" prefHeight="25.0" prefWidth="267.0" />
-        <Label layoutX="875.0" layoutY="84.0" text="Player Three Name." textFill="BLUE">
+        <Label layoutX="47.0" layoutY="251.0" text="Player Three Name." textFill="BLUE">
             <font>
                 <Font name="Sitka Display Italic" size="36.0" />
             </font>
         </Label>
-        <TextField fx:id="threeName" disable="true" layoutX="875.0" layoutY="157.0" onKeyReleased="#Player3_3" prefHeight="25.0" prefWidth="253.0" />
+        <TextField fx:id="threeName" disable="true" layoutX="47.0" layoutY="321.0" onKeyReleased="#Player3_3" prefHeight="25.0" prefWidth="253.0" />
         <Label fx:id="backToNumbers" layoutX="14.0" layoutY="14.0" onMouseClicked="#BackToNumbers" prefHeight="45.0" prefWidth="48.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css" />
-    <Label fx:id="Start" disable="true" layoutX="599.0" layoutY="374.0" onMouseClicked="#startGame3" prefHeight="192.0" prefWidth="479.0" stylesheets="@proStyle.css" />
+    <Label fx:id="Start" disable="true" layoutX="38.0" layoutY="413.0" onMouseClicked="#startGame3" prefHeight="192.0" prefWidth="479.0" stylesheets="@proStyle.css" />
 
     </children>
 

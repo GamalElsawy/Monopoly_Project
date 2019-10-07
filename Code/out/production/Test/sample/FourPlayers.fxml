@@ -19,27 +19,27 @@
             </font>
         </Label>
         <TextField fx:id="oneName" layoutX="38.0" layoutY="157.0" onKeyReleased="#Player1_4" prefHeight="25.0" prefWidth="253.0" />
-        <Label layoutX="335.0" layoutY="84.0" text="Player Two Name." textFill="BLUE">
+        <Label layoutX="405.0" layoutY="84.0" text="Player Two Name." textFill="BLUE">
             <font>
                 <Font name="Sitka Display Italic" size="36.0" />
             </font>
         </Label>
-        <TextField fx:id="twoName" disable="true" layoutX="335.0" layoutY="157.0" onKeyReleased="#Player2_4" prefHeight="25.0" prefWidth="267.0" />
-        <Label layoutX="633.0" layoutY="84.0" text="Player Three Name." textFill="BLUE">
+        <TextField fx:id="twoName" disable="true" layoutX="402.0" layoutY="157.0" onKeyReleased="#Player2_4" prefHeight="25.0" prefWidth="267.0" />
+        <Label layoutX="38.0" layoutY="248.0" text="Player Three Name." textFill="BLUE">
             <font>
                 <Font name="Sitka Display Italic" size="36.0" />
             </font>
         </Label>
-        <TextField fx:id="threeName" disable="true" layoutX="633.0" layoutY="158.0" onKeyReleased="#Player3_4" prefHeight="25.0" prefWidth="253.0" />
-        <Label layoutX="976.0" layoutY="84.0" text="Player Four Name." textFill="BLUE">
+        <TextField fx:id="threeName" disable="true" layoutX="38.0" layoutY="312.0" onKeyReleased="#Player3_4" prefHeight="25.0" prefWidth="253.0" />
+        <Label layoutX="403.0" layoutY="248.0" text="Player Four Name." textFill="BLUE">
             <font>
                 <Font name="Sitka Display Italic" size="36.0" />
             </font>
         </Label>
-        <TextField fx:id="fourName" disable="true" layoutX="976.0" layoutY="157.0" onKeyReleased="#Player4" prefHeight="25.0" prefWidth="253.0" />
+        <TextField fx:id="fourName" disable="true" layoutX="409.0" layoutY="312.0" onKeyReleased="#Player4" prefHeight="25.0" prefWidth="253.0" />
 
         <Label fx:id="backToNumbers" layoutX="14.0" layoutY="14.0" onMouseClicked="#BackToNumbers" prefHeight="45.0" prefWidth="48.0" style="-fx-background-repeat: no-repeat;" stylesheets="@proStyle.css" />
-    <Label fx:id="Start" disable="true" layoutX="599.0" layoutY="374.0" onMouseClicked="#startGame4" prefHeight="192.0" prefWidth="479.0" stylesheets="@proStyle.css" />
+    <Label fx:id="Start" disable="true" layoutX="38.0" layoutY="419.0" onMouseClicked="#startGame4" prefHeight="192.0" prefWidth="479.0" stylesheets="@proStyle.css" />
 
     </children>
 
