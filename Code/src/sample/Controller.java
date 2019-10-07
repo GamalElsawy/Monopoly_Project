@@ -249,7 +249,7 @@ public class Controller {
         gameData.playersNumber = 2;
         addPlayers();
         Main.primaryStage.setTitle("Monopoly");
-        Main.primaryStage.setResizable(true);
+        Main.primaryStage.setResizable(false);
         Main.Labels(2);
         Main.primaryStage.setScene(Main.scene);
 
@@ -272,7 +272,7 @@ public class Controller {
         Main.primaryStage.setResizable(false);
         Main.Labels(3);
         Main.primaryStage.setScene(Main.scene);
-        Main.primaryStage.setResizable(true);
+        //Main.primaryStage.setResizable(true);
     }
     public void startGame4(){
         gameData.Names = new String[4];
@@ -293,7 +293,7 @@ public class Controller {
         Main.primaryStage.setResizable(false);
         Main.Labels(4);
         Main.primaryStage.setScene(Main.scene);
-        Main.primaryStage.setResizable(true);
+       // Main.primaryStage.setResizable(true);
     }
     void addPlayers(){
         for (int i = 0; i < gameData.playersNumber; i++){

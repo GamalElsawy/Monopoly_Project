@@ -109,7 +109,7 @@ public class Main extends Application {
         im.setFitHeight(1000 * sR.getHeight() / 1080);
         group.getChildren().add(im);
         Image image = new Image("sample/title1.jpeg");
-        scene = new Scene(group, 1400, 980);
+        scene = new Scene(group, im.getFitWidth() - 1, im.getFitHeight() - 1);
 
 
         group.getChildren().add(throwDice);
